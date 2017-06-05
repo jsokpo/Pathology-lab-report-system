@@ -1,7 +1,7 @@
 Pathology Lab System
 
 
-A pathology lab reporting system, which can be used to publish medical test result reports to patients.
+This project is a pathology lab reporting system, which can be used to publish medical test result reports to patients.
 
 Functional Specifications
 
