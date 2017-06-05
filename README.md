@@ -24,13 +24,20 @@ Pre-Requirements ----------------- 
 How To Install The application    ------------------------------
 
 
-   1. Copy Source files into web server document directory ( Ex. project/src/ to /var/www/htdocs/path)      
-   2. Enter Project base url in config file. (path: /application/config/config.php   ex. $config['base_url'] =             'http://localhost/path';)      
-   3. Enter MySQL DB database credentials in database config file (path: /application/config/database.php)      
-   4. Import pathology_lab_121216.sql file (path: /database/pathology_lab_121216.sql) to desired database       
-   5. Enter Email configuration deatail in email confir file (path: /application/config/email.php)      
-   6. Optional Twilio API SMS configration can be done in helper file   (path: /application/helper/twilio_helper.php)      
-   7. Thats it! you can open patient report area like http://localhost/projectpath/  and admin area http://localhost/projectpath/admin         ( username: admin and password: johnVer)      
+   1. Copy Source files into web server document directory ( Ex. project/src/ to /var/www/htdocs/path)
+   
+   2. Enter Project base url in config file. (path: /application/config/config.php   ex. $config['base_url'] =             'http://localhost/path';)
+   
+   3. Enter MySQL DB database credentials in database config file (path: /application/config/database.php)
+   
+   4. Import pathology_lab_121216.sql file (path: /database/pathology_lab_121216.sql) to desired database
+   
+   5. Enter Email configuration deatail in email confir file (path: /application/config/email.php)
+   
+   6. Optional Twilio API SMS configration can be done in helper file   (path: /application/helper/twilio_helper.php)
+   
+   7. Thats it! you can open patient report area like http://localhost/projectpath/  and admin area http://localhost/projectpath/admin         ( username: admin and password: johnVer)
+   
    
    
    Feedback to Improve -------------------    
